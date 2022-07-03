@@ -4,23 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="icon" href="img/favicon.png">
-<meta name="description" content="I'm Lia a German inventor / software developer who likes to work on software that inspires people. 
-      This is where I share my interests and some of my history working in several industries. Feel free to have a look around!"/>
-<title>Portfolio Lia | LiaAiluri</title>
+<meta name="description" content="I'm Lia a German software developer who likes to create new software that inspires people. 
+This is my potfolio that shares my interests and history with you. Come have a look around!"/>
+<title>Portfolio Lia</title>
 <meta property="og:image" content="https://lia.vc/img/preview.gif">
 <meta property="og:title" content="Portfolio Lia">
-<meta property="twitter:card" content="Red Panda is waving">
-<meta property="twitter:description" content="I'm Lia a German inventor / software developer who likes to work on software that inspires people. 
-This is where I share my interests and some of my history working in several industries. Feel free to have a look around!">
-<meta property="og:description" content="I'm Lia a German inventor / software developer who likes to work on software that inspires people. 
-This is where I share my interests and some of my history working in several industries. Feel free to have a look around!">
+<meta property="twitter:description" content="I'm Lia a German software developer who likes to create new software that inspires people. 
+This is my potfolio that shares my interests and history with you. Come have a look around!">
+<meta property="og:description" content="I'm Lia a German software developer who likes to create new software that inspires people. 
+This is my potfolio that shares my interests and history with you. Come have a look around!">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,600" rel="stylesheet" type="text/css">
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="magnific-popup/magnific-popup.css"/>
-<link rel="stylesheet" type="text/css" href="css/simpletextrotator.css"/>
 <script src="js/snap.svg-min.js"></script> 
 <script src="js/modernizr.custom.js"></script> 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
@@ -48,7 +42,7 @@ This is where I share my interests and some of my history working in several ind
 	
 <!-- Header showing information about me and what I do -->
 <header>
-  <div class="col-md-12 backstretch" id="intro" style="background-color: rgba(0,0,0,0.5)">
+  <div class="col-md-12" id="intro" style="background-color: rgba(0,0,0,0.5);">
     <h1> 
 		<span class="rotate"> 
 		<!-- These are all seperated by the | sign -->
@@ -69,23 +63,23 @@ This is where I share my interests and some of my history working in several ind
 <!-- My Expierence -->
 <div id="skills" class="wrapper experience">
   <div class="container">
-    <h1 style="color: margin: 10px">My Skills</h1>
+    <h1 style="margin: 10px">My Skills</h1>
     <div class="row">
-      <div class="col-lg-4"> <img src="img/software.png" alt="software development" style="height: 25%; width: 25%;"/>
+      <div class="col-lg-4"> <img src="img/software.webp" alt="software development" style="height: 25%; width: 25%;"/>
         <h2 style="margin-bottom: 30px">Software Dev</h2>
         <p class="main">I'm currently working as a freelance software developer, on a research project funded by the german goverment</p>
         <p class="main"> <br />
           <br />
           I mainly use C#, Python and Rust for my programming needs. My chosen IDE is VS Code and know my way around the most common dev tools and many other IDEs too.</p>
       </div>
-      <div class="col-lg-4"> <img src="img/dataScience.png" alt="data science" style="height: 25%; width: 25%;"/>
+      <div class="col-lg-4"> <img src="img/dataScience.webp" alt="data science" style="height: 25%; width: 25%;"/>
         <h2 style="margin-bottom: 30px">Data Science</h2>
         <p class="main">I use data science to solve problems or even find out that they exist in the first place.</p>
         <p class="next"><br />
           I know my way around SQL Databases and Redis and love to write scraping applications to collect data. My primary specialization in data science is machine learning and AI research and development.<br />
         </p>
       </div>
-      <div class="col-lg-4"> <img src="img/design.png" alt="design" style="height: 25%; width: 25%"/>
+      <div class="col-lg-4"> <img src="img/design.webp" alt="design" style="height: 25%; width: 25%"/>
         <h2 style="margin-bottom: 30px">Game Design</h2>
         <p class="main">I originally started working in the tech sector cause I wanted to develop games in the future.</p>
         <p class="next"><br />
@@ -171,67 +165,62 @@ This is where I share my interests and some of my history working in several ind
           essentially casts a line onto a texture (The Yellow square in the video below shows it). This texture is then fed into a shader to generate the local map for drawing 
           grass inteaction with the player model or other models too if they have the particle system attached to them. 
           On top of that I implemented a Gerstner wave function to generate the waves in the grass to make it look good / like it's waving in the wind.<br>
-          <h4 class="image_bkg" style="margin-top: 20px">Wave Preview</h1>
+          <h3 style="margin-top: 25px; font-size: 28px;">Wave Preview</a>
           <video
-            id="my-video"
+            id="grass-waves-vid"
             class="video-js center-block"
             controls
+            width="80%"
             preload="auto"
-            width="480"
-            height="270"
-            poster="img/grass-interaction-prev.png"
+            poster="img/grass-waves-prev.webp"
             data-setup="{}">
-            <source src="video/grass-waves.mp4" type="video/mp4" />
             <source src="video/grass-waves.webm" type="video/webm" />
+            <source src="video/grass-waves.mp4" type="video/mp4" />
           </video>
-          <h4 class="image_bkg" style="margin-top: 20px">Collision Preview</h1>
+          <h3 style="margin-top: 25px; font-size: 28px;">Interaction Preview</a>
           <video
-            id="my-video"
+            id="grass-interaction-vid"
             class="video-js center-block"
             controls
+            width="80%"
             preload="auto"
-            width="480"
-            height="270"
-            poster="img/grass-waves-prev.png"
+            poster="img/grass-interaction-prev.webp"
             data-setup="{}">
-            <source src="video/grass-interaction.mp4" type="video/mp4" />
             <source src="video/grass-interaction.webm" type="video/webm" />
+            <source src="video/grass-interaction.mp4" type="video/mp4" />
           </video>
 		    </div>
       </div>
     </div>
   </div>
 </div>
+
 <!-- Social Icons and Links -->
 <div id="social" class="wrapper socials">
-  <div class="container">
-    <h1 style="margin: 10px">My Socials</h1>
-    <div class="row">
-		<div class="col-lg-3">
+  <div class="container center-block">
+    <h1 style="margin: 40px">My Socials</h1>
+    <div class="row center-block">
+		<div class="col-sm-3">
 			<a class="center-block text-center text-muted" href="https://discordapp.com/users/98468483385266176">
-				<img class="img-responsive center-block" src="img/discord_new_96px.png" alt="Discord">
-				<br>
+				<img width="50" class="img-responsive center-block" src="img/discord_new_96px.webp" alt="Discord">
 				Liα#0001
 			</a>
 		</div>
-		<div class="col-lg-3">
+		<div class="col-sm-3">
 			<a class="center-block text-center text-muted" href="https://twitter.com/LiaAiluri">
-				<img class="img-responsive center-block" src="img/twitter_96px.png" alt="Twitter">
-				<br>
+				<img width="50" class="img-responsive center-block" src="img/twitter_96px.webp" alt="Twitter">
 				LiaAiluri
 			</a>
 		</div>
-		<div class="col-lg-3">
+		<div class="col-sm-3">
 			<a class="center-block text-center text-muted" href="https://github.com/LiaAiluri">
-				<img class="img-responsive center-block" src="img/github_96px.png" alt="Github">
-				<br>
+				<img width="50" class="img-responsive center-block" src="img/github_96px.webp" alt="Github">
 				LiaAiluri
 			</a>
 		</div>
-    <div class="col-lg-3">
+    <div class="col-sm-3">
 			<a class="center-block text-center text-muted" href="https://www.linkedin.com/in/liaailuri/">
-				<img class="img-responsive center-block" src="img/linkedin_96px.png" alt="Linkedin">
-				<br>
+				<img width="50" class="img-responsive center-block" src="img/linkedin_96px.webp" alt="Linkedin">
 				LiaAiluri
 			</a>
 		</div>
@@ -254,105 +243,62 @@ This is where I share my interests and some of my history working in several ind
 	</container>
 </div>
 
+<!-- Disabled since we don't use a menu for subpages
 <script src="js/classie.js"></script> 
-<script src="js/demo12.js"></script> 
+<script src="js/demo12.js"></script> -->
+
 <script language="javascript">
-        function autoResizeDiv()
-        {
-            document.getElementById('intro').style.height = window.innerHeight +'px';
-        }
-        window.onresize = autoResizeDiv;
-        autoResizeDiv();
+  function autoResizeDiv()
+  {
+      document.getElementById('intro').style.height = window.innerHeight +'px';
+  }
+  window.onresize = autoResizeDiv;
+  autoResizeDiv();
 
-      $(function(){
-       $('#Grid').mixitup({
-       effects: ['rotateY'],
-       easing: 'smooth',
-       targetDisplayGrid: 'inline-block',
-       });
+  $(function(){
+    $('#Grid').mixitup({
+      effects: ['rotateY'],
+      easing: 'smooth',
+      targetDisplayGrid: 'inline-block',
     });
+  });
 
-        $(function() {
-
+  $(function() {
     $(".roll").css("opacity","0");
-
-
     $(".roll").hover(function () {
-
-
-    $(this).stop().animate({
-    opacity: .8
-    }, 200);
-     $(this).find(".cross").stop().addClass("crosshover",{duration: 300
-    });
+      $(this).stop().animate({opacity: .8}, 200);
+      $(this).find(".cross").stop().addClass("crosshover",{duration: 300});
     },
 
-
     function () {
-
-
-    $(this).stop().animate({
-    opacity: 0
-    }, 200);
-     $(this).find(".cross").stop().removeClass("crosshover",{duration: 300
+      $(this).stop().animate({opacity: 0}, 200);
+      $(this).find(".cross").stop().removeClass("crosshover",{duration: 300});
     });
-    });
-    });
-    </script> 
-<script type="text/javascript">
-            $(document).ready(function() {
-            $('.test-popup-link').magnificPopup({type:'image', gallery:{enabled:true}});
-
-            $('#submit').click(function(){
-            $.post("send_form_email.php", $("#contactform").serialize(),  function(response) {
-            $('#success').html(response);
-
-            });
-            return false;
-            });
-
-            $(function() {
-            location.hash = 'top';
-            });
-
-            $(document).ajaxComplete(function() {
-              if ($('.name-erorr').length) {
-                  $("#name").addClass("border");
-              } else {
-                  $("#name").removeClass("border");
-              };
-              if ($('.email-erorr').length) {
-                  $("#email").addClass("border");
-              } else {
-                  $("#email").removeClass("border");
-              };
-              if ($('.message-erorr').length) {
-                  $("#message").addClass("border");
-              } else {
-                  $("#message").removeClass("border");
-              };
-
-              });
-
-              $(".rotate").textrotator({
-              animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-              separator: "|", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-              speed: 4000 // How many milliseconds until the next word show.
-              });
-
-              $.backstretch([
-                  "img/background.jpg"
-              ], {duration: 3500, fade: 1000});
-
-
-             });
-    </script> 
-<script type="text/javascript">
-        $(window).load(function() {
-            $('#status').fadeOut();
-            $('#preloader').delay(350).fadeOut('slow');
-            $('body').delay(350).css({'overflow':'visible'});
-        })
+  });
 </script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".rotate").textrotator({
+    animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+    separator: "|", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+    speed: 4000 // How many milliseconds until the next word show.
+    });
+    $.backstretch([
+        //Can add more images by adding them to this arry which will cause them to "fade" over
+        "img/background.webp"
+    ]); /*uncomment the line below this line to enable background fading into different ones*/ 
+    //, {duration: 3500, fade: 1000});
+  });
+</script>
+
+<script type="text/javascript">
+  $(window).load(function() {
+      $('#status').fadeOut();
+      $('#preloader').delay(350).fadeOut('slow');
+      $('body').delay(350).css({'overflow':'visible'});
+  })
+</script>
+
 </body>
 </html>
