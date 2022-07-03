@@ -303,8 +303,8 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Quicksand", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
@@ -320,13 +320,13 @@ textarea {
 }
 
 a {
-  color: #8062ff;
+  color: #E64D67;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #664ecc;
+  color: #c94359;
 }
 
 a:focus {
@@ -396,7 +396,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -499,14 +499,14 @@ p {
 
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
   line-height: 1.4;
 }
 
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 50px;
   }
 }
 
@@ -528,7 +528,7 @@ cite {
 }
 
 .text-primary:hover {
-  color: #664ecc;
+  color: #d2465d;
 }
 
 .text-warning {
